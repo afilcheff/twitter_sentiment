@@ -1,0 +1,4 @@
+# Requirements
+tweepy
+google-cloud-pubsub
+textblob
