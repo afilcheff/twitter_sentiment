@@ -21,10 +21,15 @@ Connect results to a data visualisation tool for analytic purposes.
 
 
 https://towardsdatascience.com/game-of-thrones-twitter-sentiment-with-keras-apache-beam-bigquery-and-pubsub-382a770f6583
+
 https://medium.com/codex/a-dataflow-journey-from-pubsub-to-bigquery-68eb3270c93
+
 https://textblob.readthedocs.io/en/dev/
 
 https://cloud.google.com/bigquery/streaming-data-into-bigquery
+
 https://cloud.google.com/pubsub/docs/pubsub-dataflow#python
+
 https://cloud.google.com/dataflow/docs/quickstarts/quickstart-python
+
 https://cloud.google.com/container-registry/docs/quickstart

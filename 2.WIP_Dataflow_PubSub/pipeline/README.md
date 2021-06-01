@@ -14,8 +14,8 @@ To deploy the pipeline run the following:
 python pipeline.py  \
     --streaming \
     --runner DataflowRunner \
-    --project <PROJECT_ID> \
-    --region <DATAFLOW_REGION> \
-    --temp_location gs://<STORAGE_BUCKET>/tmp \
+    --project "PROJECT_ID" \
+    --region "DATAFLOW_REGION" \
+    --temp_location gs://"STORAGE_BUCKET"/tmp \
     --job_name dataflow-custom-pipeline-v1 \
     --max_num_workers 2
