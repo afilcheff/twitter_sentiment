@@ -5,7 +5,7 @@ Before building the container, make sure to:
 1. Acquire Twitter Developer API credentials and fill them out in src/credentials.py
 2. Create Pub/Sub topic and input the projectID and topic in src/stream.py
 
-The container can be built and ran locally (you need a Google auth service file and to add os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials" in stream.py)
+The container can be built and ran locally (you need a Google auth service file and to add os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials.json" in stream.py)
 or can be deployed on a Google Cloud VM through Google Container Registry
 
 To do so:
