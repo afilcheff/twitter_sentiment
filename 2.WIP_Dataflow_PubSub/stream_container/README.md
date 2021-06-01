@@ -12,7 +12,7 @@ To do so:
 1. Install Google Cloud SDK and configure for your project
 2. Configure Docker to use the gcloud command-line tool to authenticate requests to Container Registry via gcloud auth configure-docker
 3. Build the image by running : docker build -t gcr.io/<projectID>/twitter-stream:v1 . (the . indicates that there is a dockerfile to build from)
-4. Push the image to Container Registry by running: docker push gcr.io/start-311620/twitter-stream:v1
+4. Push the image to Container Registry by running: docker push gcr.io/<projectID>/twitter-stream:v1
 5. From Container registry choose the relevant image and choose "Deploy to GCE". When setting up the VM configure "Identity and API access" for the relevant service account, enable HTTP and HTTPS traffic
 
 Container Registry quickstart: https://cloud.google.com/container-registry/docs/quickstart
