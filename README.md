@@ -6,16 +6,17 @@ Connect results to a data visualisation tool for analytic purposes.
 
 
 ## 1. First iteration
-1. Create a VM in Google Compute Engine that streams tweets in real time, estimates sentiment via TextBlob (https://textblob.readthedocs.io/en/dev/) and feeds results directly to Big Query.
-2. Use Google Data Studio for visualisation
+1. Create a VM in Google Compute Engine that streams tweets in real time, estimates sentiment via TextBlob (https://textblob.readthedocs.io/en/dev/) and feeds results directly to Big Query
+2. Use Google Data Studio for visualisation - You can check the dashboard at: https://datastudio.google.com/reporting/9dd41638-8e4c-4f44-bd6c-9e22ada9766d/page/sfeMC
 
-## Work in Progress
+## 2. Second iteration
 1. Create a VM in Google Compute Engine that streams tweets in real time, estimates sentiment via TextBlob (https://textblob.readthedocs.io/en/dev/) and feeds results to Google Pub/Sub.
 2. Use Dataflow (Apache Beam) to perform extraction and staging in BQ. Dataflow is the managed version of Apache Beam, providing a scallable serverless platform for parallel big data transformations.
 3. Use Google Data Studio for visualisation
 
 
-
+I have currently deployed the first iteration of the project, because the average load of tweets I am interested in is 10k per hour.
+The second iteration of the project is more suitable for higher work load (e.g. 5 mil tweets per day), increased complexity in the data transformation (e.g. evaluating sentiment via ML model, windowing and bundling) and pipeline resillience is a priority.
 
 ## References:
 
